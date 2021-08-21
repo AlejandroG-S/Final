@@ -9,7 +9,7 @@ export class BotonComponent implements OnInit {
 
   @Input() tamano:string = ""
   @Input() mensaje:string = "Boton"
-  @Input() color:string = "class='boton'"
+  @Input() color:string = ""
 
   @Output() onClick = new EventEmitter()
 

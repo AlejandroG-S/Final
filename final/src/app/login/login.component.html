@@ -1,0 +1,7 @@
+<div>
+    <b>Usuario: <input type="text" [(ngModel)]="usuario"></b>
+    <br><br>
+    <b>Contraseña: <input type="text" [(ngModel)]="contrasena"></b>
+    <br>
+    <button [ngClass]=[SiEs,NoEs] (click)="comprueba(usuario, contrasena)">Entrar</button>
+</div>
